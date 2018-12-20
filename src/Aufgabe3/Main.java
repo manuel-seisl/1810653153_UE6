@@ -29,7 +29,7 @@ public class Main
             int currIndex = Integer.parseInt(JOptionPane.showInputDialog("Bitte gewünschten Index eingeben:"));
 
             // Ausgabe - Wert
-            JOptionPane.showMessageDialog(null, array1[currIndex]);
+            JOptionPane.showConfirmDialog(null, array1[currIndex]);
 
             // Speichern - Neuer Wert
             array1[currIndex] = Integer.parseInt(JOptionPane.showInputDialog("Bitte neuen Wert eingeben:"));
